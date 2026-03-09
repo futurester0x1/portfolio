@@ -57,6 +57,25 @@ body.blog-post h1 {
   margin-bottom: 16px;
 }
 
+.breadcrumbs {
+  margin-bottom: 24px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.breadcrumbs a {
+  color: var(--muted);
+}
+
+.breadcrumbs a:hover {
+  color: var(--white);
+}
+
+.breadcrumbs span {
+  margin: 0 8px;
+  opacity: 0.5;
+}
+
 .post-content p { margin-bottom: 20px; }
 
 .post-content ul {
