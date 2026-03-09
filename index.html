@@ -12,7 +12,7 @@
   <meta property="og:description" content="Minimal terminal-style personal page for Ujjwal Basnet, Procurement Officer and supply chain professional." />
   <meta property="og:url" content="https://futurester0x1.github.io/portfolio/index.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://futurester0x1.github.io/portfolio/og-image.png" />
+
   <meta name="theme-color" content="#0a0a0a" />
   
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📦</text></svg>'>
@@ -39,7 +39,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Ujjwal Basnet Portfolio",
-      "url": "https://uzzal-basnyat.github.io"
+      "url": "https://futurester0x1.github.io/portfolio/"
     }
   </script>
 </head>
@@ -59,7 +59,7 @@
           <a href="#experience">experience</a>
           <a href="#projects">projects</a>
           <a href="blog/index.html">blog</a>
-          <a href="#cv">cv</a>
+          <a href="cv.html">cv</a>
           <!-- Removed #thoughts link until it's ready -->
           <a href="#contact">contact</a>
         </nav>
@@ -76,9 +76,7 @@
               <span id="typed"></span><span class="cursor" aria-hidden="true">_</span>
           </div>
           <p class="intro">
-            Procurement Officer with 8+ years of experience across sourcing, inventory control, asset management, BOM creation,
-            and ERP-driven operations. I work at the intersection of procurement, systems, and process improvement - helping teams
-            make cleaner decisions, reduce waste, and keep operations moving with better visibility.
+            Procurement officer focused on inventory control, sourcing systems, and operational process improvement. Helping teams make cleaner decisions, reduce waste, and keep operations moving with better visibility.
           </p>
           <div class="tags">
             <span>Kathmandu, Nepal</span>
@@ -88,7 +86,7 @@
             <span>MITx Supply Chain MicroMasters</span>
           </div>
           <div class="links">
-            <a href="#cv" class="cta-btn">View CV</a>
+            <a href="cv.html" class="cta-btn">View CV</a>
             <a href="mailto:uzzalbasnyat@gmail.com">email</a>
             <a href="https://www.linkedin.com/in/uzzal-basnyat/" target="_blank" rel="noopener noreferrer">linkedin</a>
           </div>
@@ -151,55 +149,61 @@
 
         <section class="section" id="projects">
           <div class="cmd">$ ls workspace/</div>
-          <h2>Current Build (Upcoming)</h2>
-          <!-- Added transition sentence to bridge procurement and tech projects -->
-          <p class="intro">Alongside procurement work, I build technical simulation projects that reflect my systems thinking and problem-solving style. Working to bridge the gap between field execution and traditional ERP systems by architecting a specialized modern platform, alongside experimental coding projects.</p>
-          <div class="list">
-            <article class="item">
-              <div class="item-title">
-                <span>Project Avipsa</span>
-                <span class="meta">in development</span>
-              </div>
-              <p>A multi-tenant supply chain and procurement web application designed to clean up requisition workflows, asset tracking, and vendor compliance. The platform features deep, bidirectional integration with Odoo ERP, real-time Bill of Quantities (BOQ) collaboration, and a machine-learning module for cost prediction. Built to reduce administrative drag and increase operational leverage through dynamic vendor scorecards and intelligent database monitoring.</p>
-              <div class="skills" style="margin-top: 12px;">
-                <span class="chip">React</span>
-                <span class="chip">Node.js</span>
-                <span class="chip">PostgreSQL</span>
-                <span class="chip">Redis</span>
-                <span class="chip">Odoo Integration</span>
-                <span class="chip">Machine Learning</span>
-              </div>
-            </article>
-            
-            <article class="item">
-              <div class="item-title">
-                <span>Black Hole Raytracer</span>
-                <span class="meta">experimental / graphics</span>
-              </div>
-              <p>A real-time, interactive physics and rendering simulation built from scratch. Uses custom GLSL shaders and volumetric raymarching to accurately simulate the gravitational lensing, light bending, and accretion disk dynamics around a singularity, complete with post-processing pipelines and dynamic quality modes.</p>
-              <div class="skills" style="margin-top: 12px;">
-                <span class="chip">Python</span>
-                <span class="chip">OpenGL</span>
-                <span class="chip">GLSL</span>
-                <span class="chip">Raymarching</span>
-                <span class="chip">Physics Simulation</span>
-              </div>
-            </article>
+          <h2>Building & Experimenting</h2>
+          <p class="intro">Alongside procurement work, I build technical systems that bridge the gap between field execution and modern architecture.</p>
+          
+          <div class="project-category">
+            <div class="cmd">$ cat systems.list</div>
+            <h3 style="margin: 12px 0; color: var(--accent);">Operations / Supply Chain Systems</h3>
+            <div class="list">
+              <article class="item">
+                <div class="item-title">
+                  <span>Project Avipsa</span>
+                  <span class="meta">in development</span>
+                </div>
+                <p>A multi-tenant supply chain and procurement web application designed to clean up requisition workflows, asset tracking, and vendor compliance. Features bidirectional Odoo ERP integration and real-time BOQ collaboration.</p>
+                <div class="skills" style="margin-top: 12px;">
+                  <span class="chip">React</span>
+                  <span class="chip">Node.js</span>
+                  <span class="chip">PostgreSQL</span>
+                  <span class="chip">Odoo Integration</span>
+                </div>
+              </article>
+            </div>
+          </div>
 
-            <article class="item">
-              <div class="item-title">
-                <span>Sirius Binary System Simulation</span>
-                <span class="meta">experimental / physics</span>
-              </div>
-              <p>An interactive 3D simulation of the Sirius A and B star system built using OpenGL. It features mathematically accurate Keplerian orbital mechanics, a dynamic, vectorized spacetime grid visualizing the gravity wells, interactive camera controls, and custom GLSL shaders for the celestial bodies and surrounding isotropic starfield.</p>
-              <div class="skills" style="margin-top: 12px;">
-                <span class="chip">Python</span>
-                <span class="chip">OpenGL</span>
-                <span class="chip">Numpy</span>
-                <span class="chip">Keplerian Physics</span>
-                <span class="chip">GLSL</span>
-              </div>
-            </article>
+          <div class="project-category" style="margin-top: 32px;">
+            <div class="cmd">$ cat experiments.list</div>
+            <h3 style="margin: 12px 0; color: var(--accent);">Technical / Simulation Experiments</h3>
+            <div class="list">
+              <article class="item">
+                <div class="item-title">
+                  <span>Black Hole Raytracer</span>
+                  <span class="meta">graphics</span>
+                </div>
+                <p>A real-time physics and rendering simulation. Uses custom GLSL shaders and volumetric raymarching to accurately simulate gravitational lensing and light bending around a singularity.</p>
+                <div class="skills" style="margin-top: 12px;">
+                  <span class="chip">Python</span>
+                  <span class="chip">OpenGL</span>
+                  <span class="chip">GLSL</span>
+                  <span class="chip">Raymarching</span>
+                </div>
+              </article>
+              
+              <article class="item">
+                <div class="item-title">
+                  <span>Sirius Binary System</span>
+                  <span class="meta">physics</span>
+                </div>
+                <p>Interactive 3D simulation of the Sirius A and B star system. Features Keplerian orbital mechanics and dynamic vectorized spacetime grids to visualize gravity wells.</p>
+                <div class="skills" style="margin-top: 12px;">
+                  <span class="chip">Python</span>
+                  <span class="chip">OpenGL</span>
+                  <span class="chip">Numpy</span>
+                  <span class="chip">Keplerian Physics</span>
+                </div>
+              </article>
+            </div>
           </div>
         </section>
 
@@ -226,9 +230,10 @@
           <p class="intro">This public version of my CV is viewable on-page and downloadable. My phone number is intentionally removed from the public copy - please use email or LinkedIn to reach me.</p>
           
           <div class="links">
+            <a href="cv.html" class="cta-btn">view web version_</a>
             <a href="Ujjwal-Basnet-CV-public.pdf" target="_blank" rel="noopener noreferrer">open pdf</a>
             <a href="Ujjwal-Basnet-CV-public.pdf" download>download cv</a>
-            <button id="togglePdf" class="toggle-btn" type="button" aria-controls="pdfContainer" aria-expanded="false">Preview CV Inline</button>
+            <button id="togglePdf" class="toggle-btn" type="button" aria-controls="pdfContainer" aria-expanded="false">Preview PDF Inline</button>
           </div>
           
           <!-- Wrapped PDF in a container for toggling -->

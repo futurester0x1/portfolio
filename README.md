@@ -2,7 +2,7 @@
 
 This is my personal portfolio site and blog, featuring a custom terminal-themed homepage and a modern, print-ready CV.
 
-- **Live Site**: [uzzal-basnyat.github.io](https://uzzal-basnyat.github.io)
+- **Live Site**: [futurester0x1.github.io/portfolio](https://futurester0x1.github.io/portfolio/)
 - **Tech Stack**: Vanilla HTML, CSS, and JavaScript. Structured with SEO best practices and JSON-LD schema.
 
 ## Project Structure
