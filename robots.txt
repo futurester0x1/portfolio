@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+4: Sitemap: https://futurester0x1.github.io/portfolio/sitemap.xml

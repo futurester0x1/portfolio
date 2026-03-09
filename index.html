@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ujjwal Basnet | Procurement & Supply Chain</title>
+  <meta name="description" content="Minimal terminal-style personal page for Ujjwal Basnet, Procurement Officer and supply chain professional." />
+  
+  <!-- SEO & Social Meta Tags -->
+  <link rel="canonical" href="https://futurester0x1.github.io/portfolio/index.html" />
+  <meta property="og:title" content="Ujjwal Basnet | Procurement & Supply Chain" />
+  <meta property="og:description" content="Minimal terminal-style personal page for Ujjwal Basnet, Procurement Officer and supply chain professional." />
+  <meta property="og:url" content="https://futurester0x1.github.io/portfolio/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://futurester0x1.github.io/portfolio/og-image.png" />
+  <meta name="theme-color" content="#0a0a0a" />
+  
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📦</text></svg>'>
+  
+  <link rel="stylesheet" href="styles/global.css">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ujjwal Basnet",
+      "jobTitle": "Procurement Officer",
+      "url": "https://futurester0x1.github.io/portfolio",
+      "sameAs": [
+        "https://www.linkedin.com/in/uzzal-basnyat/"
+      ],
+      "description": "Procurement Officer with 8+ years of experience across sourcing, inventory control, and supply chain operations."
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ujjwal Basnet Portfolio",
+      "url": "https://uzzal-basnyat.github.io"
+    }
+  </script>
+
+  <style>
+    body {
+      opacity: 0;
+      animation: fadeIn 0.8s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .section { margin-top: 36px; }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+
+    .intro {
+      margin-bottom: 10px;
+      max-width: 64ch;
+    }
+
+    .typing {
+      color: var(--muted);
+      min-height: 24px;
+      margin-bottom: 22px;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      animation: blink 1s steps(1) infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .tags,
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      row-gap: 8px;
+    }
+
+    .tags {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .links {
+      margin-top: 14px;
+      align-items: center;
+    }
+
+    .list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .item {
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .item:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .item-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+      color: var(--white);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .notice {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-top: 6px;
+    }
+    
+    .cv-container {
+        display: none;
+        margin-top: 16px;
+    }
+    
+    .cv-container.active {
+        display: block;
+    }
+
+    .cv-frame {
+      width: 100%;
+      height: 800px;
+      border: 1px solid var(--border);
+      background: #0d0d0d;
+    }
+    
+    .highlight {
+        font-weight: bold;
+        color: var(--white);
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        width: min(100% - 18px, 780px);
+        margin: 18px auto;
+      }
+
+      .content {
+        padding: 22px 14px 28px;
+      }
+
+      .cv-frame {
+        height: 620px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="terminal">
+      <div class="topbar">
+        <div class="dots" aria-hidden="true">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <div>visitor@site: ~/ujjwal</div>
+        <nav class="nav">
+          <a href="#about">about</a>
+          <a href="#impact">impact</a>
+          <a href="#experience">experience</a>
+          <a href="#projects">projects</a>
+          <a href="blog/index.html">blog</a>
+          <a href="#cv">cv</a>
+          <!-- Removed #thoughts link until it's ready -->
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+
+      <div class="content">
+        <div class="line">$ ./about</div>
+
+        <section id="about">
+          <h1>Ujjwal Basnet</h1>
+          <div class="typing">
+              <!-- Fallback text inside noscript for users without JS -->
+              <noscript>procurement officer_</noscript>
+              <span id="typed"></span><span class="cursor" aria-hidden="true">_</span>
+          </div>
+          <p class="intro">
+            Procurement Officer with 8+ years of experience across sourcing, inventory control, asset management, BOM creation,
+            and ERP-driven operations. I work at the intersection of procurement, systems, and process improvement - helping teams
+            make cleaner decisions, reduce waste, and keep operations moving with better visibility.
+          </p>
+          <div class="tags">
+            <span>Kathmandu, Nepal</span>
+            <span>•</span>
+            <span>Procurement / Supply Chain / Inventory</span>
+            <span>•</span>
+            <span>MITx Supply Chain MicroMasters</span>
+          </div>
+          <div class="links">
+            <a href="#cv" class="cta-btn">View CV</a>
+            <a href="mailto:uzzalbasnyat@gmail.com">email</a>
+            <a href="https://www.linkedin.com/in/uzzal-basnyat/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          </div>
+        </section>
+
+        <section class="section" id="impact">
+          <div class="cmd">$ cat impact.log</div>
+          <h2>Selected impact</h2>
+          <div class="list">
+            <article class="item">
+              <div class="item-title">
+                <span>Government tender sourcing</span>
+                <span class="meta">Mahavir Shree International</span>
+              </div>
+              <p>Led end-to-end sourcing for government airport tenders covering ICT, construction, electrical, and mechanical packages while keeping bids aligned with budget ceilings and compliance requirements.</p>
+            </article>
+
+            <article class="item">
+              <div class="item-title">
+                <span>Asset system implementation</span>
+                <span class="meta">Kaizen AMS</span>
+              </div>
+              <!-- Added .highlight to key numbers -->
+              <p>Created and entered data for <span class="highlight">4,100+ assets</span> and helped establish a more reliable asset management methodology, contributing to <span class="highlight">96% error-free</span> work in the 2080/081 fiscal year.</p>
+            </article>
+
+            <article class="item">
+              <div class="item-title">
+                <span>Inventory accuracy and dead stock reduction</span>
+                <span class="meta">Operations improvement</span>
+              </div>
+              <p>Reduced requisition inaccuracies by <span class="highlight">45%</span>, improved inventory workflow transparency, completed ABC classification, and supported the removal of over <span class="highlight">NPR 5 crore</span> worth of dead stock from total inventory valuation.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <div class="cmd">$ ls experience</div>
+          <h2>Experience</h2>
+          <div class="list">
+            <article class="item">
+              <div class="item-title">
+                <span>Procurement Officer</span>
+                <span class="meta">Apr 2024 — Present</span>
+              </div>
+              <p class="muted">Mahavir Shree International Pvt. Ltd.</p>
+              <p>Managing sourcing, vendor negotiation, compliance documentation, purchase orders, lead times, and cross-functional coordination for large technical work packages.</p>
+            </article>
+
+            <article class="item">
+              <div class="item-title">
+                <span>Senior Procurement Assistant & Assets Control Officer</span>
+                <span class="meta">Jun 2017 — Apr 2024</span>
+              </div>
+              <p class="muted">Mahavir Shree International Pvt. Ltd.</p>
+              <p>Worked across inventory optimization, BOM management, asset control, Odoo-based workflows, audits, requisition tracking, and manufacturing-related supply chain operations.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="cmd">$ ls workspace/</div>
+          <h2>Current Build (Upcoming)</h2>
+          <!-- Added transition sentence to bridge procurement and tech projects -->
+          <p class="intro">Alongside procurement work, I build technical simulation projects that reflect my systems thinking and problem-solving style. Working to bridge the gap between field execution and traditional ERP systems by architecting a specialized modern platform, alongside experimental coding projects.</p>
+          <div class="list">
+            <article class="item">
+              <div class="item-title">
+                <span>Project Avipsa</span>
+                <span class="meta">in development</span>
+              </div>
+              <p>A multi-tenant supply chain and procurement web application designed to clean up requisition workflows, asset tracking, and vendor compliance. The platform features deep, bidirectional integration with Odoo ERP, real-time Bill of Quantities (BOQ) collaboration, and a machine-learning module for cost prediction. Built to reduce administrative drag and increase operational leverage through dynamic vendor scorecards and intelligent database monitoring.</p>
+              <div class="skills" style="margin-top: 12px;">
+                <span class="chip">React</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">Redis</span>
+                <span class="chip">Odoo Integration</span>
+                <span class="chip">Machine Learning</span>
+              </div>
+            </article>
+            
+            <article class="item">
+              <div class="item-title">
+                <span>Black Hole Raytracer</span>
+                <span class="meta">experimental / graphics</span>
+              </div>
+              <p>A real-time, interactive physics and rendering simulation built from scratch. Uses custom GLSL shaders and volumetric raymarching to accurately simulate the gravitational lensing, light bending, and accretion disk dynamics around a singularity, complete with post-processing pipelines and dynamic quality modes.</p>
+              <div class="skills" style="margin-top: 12px;">
+                <span class="chip">Python</span>
+                <span class="chip">OpenGL</span>
+                <span class="chip">GLSL</span>
+                <span class="chip">Raymarching</span>
+                <span class="chip">Physics Simulation</span>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="item-title">
+                <span>Sirius Binary System Simulation</span>
+                <span class="meta">experimental / physics</span>
+              </div>
+              <p>An interactive 3D simulation of the Sirius A and B star system built using OpenGL. It features mathematically accurate Keplerian orbital mechanics, a dynamic, vectorized spacetime grid visualizing the gravity wells, interactive camera controls, and custom GLSL shaders for the celestial bodies and surrounding isotropic starfield.</p>
+              <div class="skills" style="margin-top: 12px;">
+                <span class="chip">Python</span>
+                <span class="chip">OpenGL</span>
+                <span class="chip">Numpy</span>
+                <span class="chip">Keplerian Physics</span>
+                <span class="chip">GLSL</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="cmd">$ cat skills.txt</div>
+          <h2>Skills</h2>
+          <div class="skills">
+            <span class="chip">Procurement</span>
+            <span class="chip">Supply Chain Management</span>
+            <span class="chip">Inventory Control</span>
+            <span class="chip">Asset Management</span>
+            <span class="chip">Odoo ERP</span>
+            <span class="chip">BOM / BOQ</span>
+            <span class="chip">Demand Forecasting</span>
+            <span class="chip">Data Analysis</span>
+            <span class="chip">Excel / Sheets / Macros</span>
+            <span class="chip">Python / SQL</span>
+          </div>
+        </section>
+
+        <section class="section" id="cv">
+          <div class="cmd">$ open cv/public.pdf</div>
+          <h2>CV</h2>
+          <p class="intro">This public version of my CV is viewable on-page and downloadable. My phone number is intentionally removed from the public copy - please use email or LinkedIn to reach me.</p>
+          
+          <div class="links">
+            <a href="Ujjwal-Basnet-CV-public.pdf" target="_blank" rel="noopener noreferrer">open pdf</a>
+            <a href="Ujjwal-Basnet-CV-public.pdf" download>download cv</a>
+            <button id="togglePdf" class="toggle-btn" type="button" aria-controls="pdfContainer" aria-expanded="false">Preview CV Inline</button>
+          </div>
+          
+          <!-- Wrapped PDF in a container for toggling -->
+          <div id="pdfContainer" class="cv-container">
+              <object class="cv-frame" data="Ujjwal-Basnet-CV-public.pdf#view=FitH" type="application/pdf">
+                <p class="notice">Your browser does not support inline PDF preview. Use the links above to open or download the CV.</p>
+              </object>
+          </div>
+        </section>
+
+        <section class="section" id="blog">
+          <div class="cmd">$ cat thoughts.log</div>
+          <h2>Latest Article</h2>
+          <div class="list">
+            <article class="item">
+              <div class="item-title">
+                <a href="blog/inventory-control-hidden-cost-of-reactive-purchasing.html">Inventory Control: The Hidden Cost of Reactive Purchasing</a>
+                <span class="meta">Mar 9, 2026</span>
+              </div>
+              <p>Why overstocking isn't always the biggest cost in inventory management. Exploring the administrative friction and operational fragility of reactive "buy-when-needed" patterns.</p>
+              <div class="links">
+                <a href="blog/index.html" class="muted" style="font-size: 0.9rem;">view all articles_</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="cmd">$ cat contact.txt</div>
+          <h2>Contact</h2>
+          <p>If you want to discuss procurement operations, supply chain systems, inventory improvement, or a role I may be a fit for, feel free to reach out.</p>
+          <div class="links">
+            <a href="mailto:uzzalbasnyat@gmail.com">uzzalbasnyat@gmail.com</a>
+            <a href="https://www.linkedin.com/in/uzzal-basnyat/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          </div>
+        </section>
+
+        <footer>
+          <div>$ echo "© 2026 Ujjwal Basnet. Less noise. Better systems. Cleaner execution."</div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const words = [
+      'procurement officer',
+      'supply chain enthusiast',
+      'inventory systems thinker',
+      'operations platform builder'
+    ];
+
+    const typed = document.getElementById('typed');
+    const cursor = document.querySelector('.cursor');
+    const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    let wordIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+    let timeoutId = null;
+
+    function stopAnimation() {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+    }
+
+    function animate() {
+      if (motionQuery.matches) {
+        stopAnimation();
+        typed.textContent = words[0];
+        cursor.style.display = 'none';
+        return;
+      }
+
+      cursor.style.display = 'inline-block';
+      const current = words[wordIndex];
+
+      if (!deleting) {
+        typed.textContent = current.slice(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === current.length) {
+          deleting = true;
+          timeoutId = setTimeout(animate, 900);
+          return;
+        }
+      } else {
+        typed.textContent = current.slice(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+          deleting = false;
+          wordIndex = (wordIndex + 1) % words.length;
+        }
+      }
+
+      timeoutId = setTimeout(animate, deleting ? 40 : 70);
+    }
+
+    animate();
+
+    motionQuery.addEventListener('change', () => {
+      stopAnimation();
+      if (motionQuery.matches) {
+        typed.textContent = words[0];
+        cursor.style.display = 'none';
+      } else {
+        animate();
+      }
+    });
+
+    const toggleBtn = document.getElementById('togglePdf');
+    const pdfContainer = document.getElementById('pdfContainer');
+
+    toggleBtn.addEventListener('click', () => {
+      const isActive = pdfContainer.classList.toggle('active');
+      toggleBtn.textContent = isActive ? 'Hide Inline CV' : 'Preview CV Inline';
+      toggleBtn.setAttribute('aria-expanded', String(isActive));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog / Thoughts | Ujjwal Basnet</title>
+  <meta name="description" content="Thoughts and articles on procurement, supply chain systems, and operations by Ujjwal Basnet." />
+  
+  <meta property="og:title" content="Blog / Thoughts | Ujjwal Basnet" />
+  <meta property="og:description" content="Thoughts and articles on procurement, supply chain systems, and operations by Ujjwal Basnet." />
+  <meta property="og:url" content="https://futurester0x1.github.io/portfolio/blog/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://futurester0x1.github.io/portfolio/og-image.png" />
+  <link rel="canonical" href="https://futurester0x1.github.io/portfolio/blog/index.html" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📦</text></svg>'>
+
+  <link rel="stylesheet" href="../styles/global.css">
+  <style>
+    body {
+      opacity: 0;
+      animation: fadeIn 0.8s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    h1 { color: var(--white); font-size: 1.5rem; margin-bottom: 32px; }
+
+    .post-list { display: flex; flex-direction: column; gap: 32px; }
+    
+    .post-item {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .post-item:last-child { border-bottom: 0; }
+
+    .post-date { color: var(--muted); font-size: 0.85rem; margin-bottom: 4px; }
+    
+    .post-title {
+      display: block;
+      font-size: 1.25rem;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    
+    .post-excerpt { color: var(--text); font-size: 0.95rem; margin-bottom: 12px; line-height: 1.6; }
+    
+    .read-more { color: var(--muted); font-size: 0.9rem; font-weight: bold; }
+    .read-more:hover { color: var(--white); }
+
+    @media (max-width: 640px) {
+      .content { padding: 24px 20px 40px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="terminal">
+      <div class="topbar">
+        <div>visitor@site: ~/blog</div>
+        <nav class="nav">
+          <a href="../index.html">home</a>
+          <a href="index.html">blog</a>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Thoughts & Articles</h1>
+
+        <div class="post-list">
+          <!-- Post 1 -->
+          <article class="post-item">
+            <div class="post-date">March 9, 2026 • 5 min read</div>
+            <a href="inventory-control-hidden-cost-of-reactive-purchasing.html" class="post-title">Inventory Control: The Hidden Cost of Reactive Purchasing</a>
+            <p class="post-excerpt">Why overstocking isn't always the biggest cost in inventory management. Exploring the administrative friction and operational fragility of reactive 'buy-when-needed' patterns.</p>
+            <div class="post-tags" style="margin-bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap;">
+              <span class="tag" style="color: var(--muted); font-size: 0.8rem;">#Inventory</span>
+              <span class="tag" style="color: var(--muted); font-size: 0.8rem;">#SupplyChain</span>
+              <span class="tag" style="color: var(--muted); font-size: 0.8rem;">#Procurement</span>
+            </div>
+            <a href="inventory-control-hidden-cost-of-reactive-purchasing.html" class="read-more">read post_</a>
+          </article>
+          
+          <!-- Future posts go here -->
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>$ echo "© 2026 Ujjwal Basnet"</div>
+      <div style="margin-top: 4px;">$ ls ~/blog/*.md</div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404: Not Found | Ujjwal Basnet</title>
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📦</text></svg>'>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --panel: #101010;
+      --border: #1f1f1f;
+      --text: #d8d8d8;
+      --muted: #8a8a8a;
+      --accent: #bfbfbf;
+      --white: #f0f0f0;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .terminal {
+      width: min(600px, calc(100% - 32px));
+      border: 1px solid var(--border);
+      background: var(--panel);
+      padding: 20px;
+    }
+    .cmd { color: var(--accent); margin-bottom: 10px; }
+    .error { color: #ff5f56; }
+    a { color: var(--white); text-decoration: none; border-bottom: 1px solid var(--muted); }
+    a:hover { color: var(--accent); border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="cmd">$ cd /the-page-you-requested</div>
+    <div class="error">bash: cd: /the-page-you-requested: No such file or directory</div>
+    <br>
+    <div class="cmd">$ ls -lh</div>
+    <div>total 2</div>
+    <div>drwxr-xr-x  2 user  staff   64B Mar 9 08:30 <a href="index.html">home/</a></div>
+    <div>drwxr-xr-x  3 user  staff   96B Mar 9 08:30 <a href="blog/index.html">blog/</a></div>
+    <br>
+    <div class="cmd">$ _</div>
+  </div>
+</body>
+</html>
